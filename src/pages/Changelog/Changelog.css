@@ -1,0 +1,36 @@
+.changelog-accordion {
+    margin: 2% auto;
+    width: 80%;
+}
+
+.changelog-card {
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.changelog-card > div:last-of-type {
+    background-color: rgb(40, 44, 52);
+}
+
+.changelog-card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.changelog-card:last-child {
+    margin-bottom: 0rem;
+}
+
+.changelog-card-header>div {
+    cursor: pointer;
+}
+
+.changelog-card-header-date {
+    float: right
+}
+
+.changelog-card-body>p:last-of-type {
+    border-top: 1px solid #fff;
+    margin-top: 2rem;
+    padding-top: 0.5rem;
+}

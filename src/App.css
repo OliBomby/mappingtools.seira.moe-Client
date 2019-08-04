@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App {
+  padding: 0px;
+  color: #fff;
+  min-height: 100vh;
+  position: relative;
+}
+
+.content {
+  padding-bottom: 60px;
+}
+
+.footer {
+  padding: 20px 50px 20px 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+/*
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 8% 84% 8%;
+  grid-template-areas: "header" "content" "footer"
+}
+
+.header {
+  grid-area: "header";
+}
+
+.content {
+  grid-area: "content";
+}
+
+.footer {
+  grid-area: "footer";
+}
+
+*/

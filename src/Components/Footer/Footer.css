@@ -1,0 +1,33 @@
+p {
+    margin: 0px;
+}
+
+.footer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+.footer-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-description {
+    flex-grow: 20;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer-social {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: end;
+}
